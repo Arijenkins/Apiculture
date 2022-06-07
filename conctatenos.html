@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Informacion de como estar en contacto con nosotros. 
+-->
+<html lang="es" 
+      xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Contáctenos</title>
+        <meta charset="UTF-8">
+     <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1 id=estilo1>contactenos</h1>
+            </header>
+        <nav>
+        <a href="Puntos de venta.html">back</a>
+        <a href="Index.html">home</a>
+        <a href="Acerca de nosotros.html">next</a>
+        </nav>
+        <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Nombre Completo:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Correo Eletronico</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Su mensaje:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Enviar" />
+</form>
+        
+        <footer>Derechos reservados 2022, Apiculture S.A</footer>  
+    </body>
+</html>

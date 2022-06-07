@@ -1,0 +1,53 @@
+
+/* 
+    Created on : Jun 6, 2022, 1:08:19 PM
+    Author     : arijenkins
+*/
+* {
+    font-family: sans-serif;
+}
+    header{
+        background-image: url("../Apis-images/header.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        overflow: hidden;
+        
+    }
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Bangers',cursive;
+        font-size: 80px;
+        text-shadow:5px 3px 8px #785407;
+        
+    }
+    h2{
+        color: #74B910;
+        text-align: center;
+        font-family: 'Bangers',cursive;
+        font-size: 80px;
+        text-shadow:5px 3px 8px #609C0A;
+        
+    }
+        
+    #estilo1 {
+        color: black;
+        background-color: white;
+        text-align: center;
+    }
+    nav{
+        background-color: #785407;
+        height: 40px;
+        overflow: hidden;
+        
+    }
+    p:nth-child(odd) {
+        background-color: #785407;
+        color:#E88C07;
+    }
+    p:nth-child(event) {
+        background-color: #E88C07;
+        color: #F9C57B;
+    }
+    
